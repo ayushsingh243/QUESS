@@ -1,0 +1,68 @@
+####Q1)  Program to print hello world without using header file C
+
+extern "C"
+{
+int printf(const char *format);
+}
+
+using namespace std;
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
+####Q2) print hello world without using main Function C
+
+#include <stdio.h>
+  
+#define x main
+  
+void x()
+{
+    if (printf("Hello World")) {
+    }
+}
+
+####Q3) Program to Print Hello World 10 times using for Loop
+
+#include <bits/stdc++.h>
+using namespace std;
+  
+int main(){
+    for(int i=0;i<10;i++){
+        cout<<"HELLO WORLD"<<endl;
+    }
+}
+
+####Q4) Program to print hello world without using printf or cout 
+
+#include<stdio.h>
+int main(){
+  puts("hello world");
+  return 0;
+}
+
+####Q5) Program to print hello world without using semicolon
+
+#include<stdio.h>  
+ int main()    
+{    
+ if(printf("hello world")){}    
+return 0;  
+} 
+
+####Q6) Write a c program to print ASCII value of a character
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    char c = 'A';
+    cout << "The ASCII value of " << c << " is " << int(c);
+    return 0;
+}
+
+####Q7)
